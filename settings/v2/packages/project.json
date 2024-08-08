@@ -8,5 +8,43 @@
       "fitWidth": true
     }
   },
-  "custom_joint_texture_layouts": []
+  "custom_joint_texture_layouts": [],
+  "sorting-layer": {
+    "layers": [
+      {
+        "id": 1,
+        "name": "background",
+        "value": -1
+      },
+      {
+        "id": 0,
+        "name": "default",
+        "value": 0
+      },
+      {
+        "id": 2,
+        "name": "foreground",
+        "value": 1
+      }
+    ],
+    "increaseId": 2
+  },
+  "layer": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "CURSOR"
+      },
+      {
+        "index": 2,
+        "name": "FISH"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 4,
+      "2": 2
+    }
+  }
 }

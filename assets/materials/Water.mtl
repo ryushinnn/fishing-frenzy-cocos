@@ -2,11 +2,92 @@
   "__type__": "cc.Material",
   "_name": "",
   "_objFlags": 0,
+  "__editorExtras__": {},
   "_native": "",
   "_effectAsset": {
-    "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4"
+    "__uuid__": "113a72d8-20cd-42cd-ba96-37cc1046971a",
+    "__expectedType__": "cc.EffectAsset"
   },
   "_techIdx": 0,
-  "_defines": [],
-  "_props": []
+  "_defines": [
+    {
+      "DEFAULT_UV": "v_uv1",
+      "USE_WATER_SCATTERING": true
+    },
+    {},
+    {},
+    {},
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 82,
+        "g": 151,
+        "b": 255,
+        "a": 255
+      },
+      "roughness": 0,
+      "fresnelIntensity": 0,
+      "waterInScatterColor": {
+        "__type__": "cc.Color",
+        "r": 58,
+        "g": 223,
+        "b": 255,
+        "a": 255
+      }
+    },
+    {},
+    {},
+    {},
+    {}
+  ]
 }

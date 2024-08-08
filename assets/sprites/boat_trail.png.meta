@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "69b0332d-4749-4e00-9208-d10b33dc74bf",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "69b0332d-4749-4e00-9208-d10b33dc74bf@6c48a",
+      "displayName": "boat_trail",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "69b0332d-4749-4e00-9208-d10b33dc74bf",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "69b0332d-4749-4e00-9208-d10b33dc74bf@f9941",
+      "displayName": "boat_trail",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 93,
+        "trimY": 85,
+        "width": 1112,
+        "height": 2862,
+        "rawWidth": 1298,
+        "rawHeight": 3032,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -556,
+            -1431,
+            0,
+            556,
+            -1431,
+            0,
+            -556,
+            1431,
+            0,
+            556,
+            1431,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            93,
+            2947,
+            1205,
+            2947,
+            93,
+            85,
+            1205,
+            85
+          ],
+          "nuv": [
+            0.07164869029275808,
+            0.028034300791556728,
+            0.9283513097072419,
+            0.028034300791556728,
+            0.07164869029275808,
+            0.9719656992084432,
+            0.9283513097072419,
+            0.9719656992084432
+          ],
+          "minPos": [
+            -556,
+            -1431,
+            0
+          ],
+          "maxPos": [
+            556,
+            1431,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "69b0332d-4749-4e00-9208-d10b33dc74bf@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "69b0332d-4749-4e00-9208-d10b33dc74bf@6c48a"
+  }
+}
