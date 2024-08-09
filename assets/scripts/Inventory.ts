@@ -8,7 +8,7 @@ export class Inventory extends Component {
         type:CCInteger,
         readonly:true,
     })
-    public curMoney:number;
+    public curMoney:number = 0;
 
     private static instance:Inventory;
 
@@ -22,6 +22,7 @@ export class Inventory extends Component {
 
     public receiveMoney(amount:number){
         this.curMoney += amount;
+        console.log(this.curMoney);
         EventDispatcher.Raise(GameEvent.ON_MONEY_UPDATED, this.curMoney);
     }
 }

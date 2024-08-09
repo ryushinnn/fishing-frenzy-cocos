@@ -1,6 +1,7 @@
 import { _decorator, CCInteger, Component, Node, RigidBody2D, Tween, tween, Vec3 } from 'cc';
 import { MovableObject } from './MovableObject';
 import { EventDispatcher } from './EventDispatcher';
+import { Inventory } from './Inventory';
 const { ccclass, property } = _decorator;
 
 @ccclass('Fish')
@@ -43,6 +44,7 @@ export class Fish extends MovableObject {
     public onCaught() {
         this.tween.stop();
         this.onDisappear();
+        Inventory.getInstance().receiveMoney(this.value);
     }
     protected onDisappear() {
         this.destroyed = true;
